@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Different API methods</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+      <div id="display">
+        <sidebar id="searchSide">
+          <h2>Search for a City:</h2>
+          <input type="text" id="cityInput">
+          <button type="submit" id="searchBtn">Search</button>
+          <div id="searchHistory"></div>
+        </sidebar>
+        <section>
+          <div id="todaysForecast"></div>
+          <div id="fiveDayForecast"></div>
+        </section>
+      </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
