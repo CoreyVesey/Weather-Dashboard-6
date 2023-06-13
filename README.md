@@ -21,6 +21,8 @@
   The instructions below will inform you how to use this application.
   To properly use the Weather Dashboard a user will enter the city or town into the search bar and then the weather forecast will appear. When they submit button is clicked the application is requesting the weather info from the web api and then posting it back to the application.
 
+  ![Alt text](image.png)
+
 ## License
   This application uses the MIT license.
 
